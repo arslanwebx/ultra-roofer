@@ -51,6 +51,10 @@
     .hero-grid{background-image:linear-gradient(rgba(216,255,85,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(216,255,85,.06) 1px,transparent 1px);background-size:88px 88px;mask-image:radial-gradient(circle at center, #000, transparent 70%);opacity:.55}
     .hero-content{justify-items:center;align-content:center;padding-top:98px}
     .hero-kicker{border-color:rgba(216,255,85,.38);background:rgba(216,255,85,.08)}
+    .hero-kicker.sale-note{max-width:min(100%,620px);width:max-content;flex-wrap:wrap;padding:10px 16px;border-color:rgba(37,211,102,.68);background:rgba(37,211,102,.16);font-size:12px;line-height:1.35;letter-spacing:.045em;text-transform:none;color:#fff;transition:background .2s,border-color .2s,transform .2s}
+    .hero-kicker.sale-note:hover{background:rgba(37,211,102,.26);border-color:#25d366;transform:translateY(-2px)}
+    .hero-kicker.sale-note b{color:#25d366}
+    .hero-kicker.sale-note strong{color:#d8ff55;font-weight:800}
     h1{max-width:960px;margin:27px auto 24px;font-size:clamp(58px,8vw,112px);line-height:.88}
     .hero-copy{max-width:650px;margin:0 auto;color:rgba(255,255,255,.74);font-size:18px}
     .hero-actions{justify-content:center;margin-top:32px}
@@ -78,7 +82,7 @@
       <div class="hero-media"><img src="assets/roofers-installing-shingles.webp" alt="Roofers professionally installing shingles on a residential home" fetchpriority="high"></div>
       <div class="hero-grid" aria-hidden="true"></div>
       <div class="wrap hero-content">
-        <div class="hero-kicker"><b>●</b> Los Angeles roofing · Detailed inspections</div>
+        <a class="hero-kicker sale-note" href="https://wa.me/923077222866?text=Hi%2C%20I%27m%20interested%20in%20buying%20this%20website." target="_blank" rel="noopener noreferrer" aria-label="Contact on WhatsApp to buy this website"><b>●</b> To buy this website, contact on WhatsApp: <strong>+92 307 7222866</strong></a>
         <h1>Know your roof.<br><span>Protect your home.</span></h1>
         <p class="hero-copy">Roofing decisions get easier when the inspection is exact, the options are explained clearly, and the work is documented from tear-off to final cleanup.</p>
         <div class="hero-actions">
